@@ -274,6 +274,7 @@ public class EditorWindow {
 										+ s + " was succesfully saved"
 										: "Saving failed");
 					} catch (IOException e1) {
+						textField_1.setText("Cannot save level");
 						e1.printStackTrace();
 					}
 				}

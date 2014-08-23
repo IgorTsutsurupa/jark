@@ -2,8 +2,8 @@ package jark.entity.brick;
 
 import jark.entity.EntityBuilder;
 
-
 public class GoldenBrick extends Brick  {
+	private static final long serialVersionUID = 7210204736285677407L;
 	
 	private int modCount;
 	

@@ -3,7 +3,8 @@ package jark.entity.brick;
 import jark.entity.EntityBuilder;
 
 public class MetalBrick extends Brick {
-
+	private static final long serialVersionUID = 3222986655549499065L;
+	
 	private int modCount;
 	
 	public MetalBrick(EntityBuilder builder) {

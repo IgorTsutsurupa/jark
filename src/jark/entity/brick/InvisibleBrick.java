@@ -3,8 +3,9 @@ package jark.entity.brick;
 import jark.entity.EntityBuilder;
 
 public class InvisibleBrick extends Brick {
-
-	private int modCount;
+	private static final long serialVersionUID = 1414337125132828448L;
+	
+	private int _modCount;
 	
 	public InvisibleBrick(EntityBuilder builder) {
 		super(builder);
@@ -21,11 +22,11 @@ public class InvisibleBrick extends Brick {
 	}
 
 	public void mutate() {
-		modCount++;
+		_modCount++;
 	}
 
 	public int getStatus() {
-		return modCount;
+		return _modCount;
 	}
 	
 }
